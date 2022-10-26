@@ -25,9 +25,9 @@ Características
 Recursos disponibles
 --------------------
 
-### Declaraciones Juradas - actividades anteriores a la función pública - al AAAAMMDD
+### Declaraciones Juradas - actividades anteriores a la función pública - AAAAMMDD
 
--   **Nombre del archivo:** ddjj-actividades-anteriores-funcion-publica-al-AAAAMMDD.csv
+-   **Nombre del archivo:** ddjj-actividades-anteriores-funcion-publica-AAAAMMDD.csv
 
 -   **Descripción del contenido:** detalle de las declaraciones juradas de actividades anteriores a la función pública
 
@@ -145,9 +145,9 @@ Recursos disponibles
 
 -   **desocupado_actividad_fecha_cese (date):**
 
-### Declaraciones Juradas - actividades posteriores a la función pública - al AAAAMMDD
+### Declaraciones Juradas - actividades posteriores a la función pública - AAAAMMDD
 
--   **Nombre del archivo:** ddjj-actividades-posteriores-funcion-publica-al-AAAAMMDD.csv
+-   **Nombre del archivo:** ddjj-actividades-posteriores-funcion-publica-AAAAMMDD.csv
 
 -   **Descripción del contenido:** detalle de las declaraciones juradas de actividades posteriores a la función pública
 
