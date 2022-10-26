@@ -1,7 +1,7 @@
 Declaraciones Juradas de actividades anteriores y posteriores a la función pública
 ==================================================================================
 
-Datos correspondientes correspondiente al Sistema de Monitoreo de Actividades Privadas y Públicas Anteriores y Posteriores al ejercicio de la función pública.(MAPPAP).
+Datos correspondientes al Sistema de Monitoreo de Actividades Privadas y Públicas Anteriores y Posteriores al ejercicio de la función pública.(MAPPAP).
 
 http://datos.jus.gob.ar/dataset/declaraciones-juradas-de-actividades-anteriores-y-posteriores-a-la-funcion-publica
 
@@ -10,7 +10,7 @@ Características
 
 -   **Fecha de Primera Publicación:**
 
--   **Tags o Etiquetas:** anticorrupción, DDJJ, funcionarios, patrimonio, ética pública, transparencia, función pública
+-   **Tags o Etiquetas:** anticorrupción, DDJJ, funcionarios, ética pública, transparencia, función pública, actividades profesionales, actividades laborales, antecedentes, puerta giratoria, conflicto de intereses
 
 -   **Organización:** Ministerio de Justicia y Derechos Humanos. Oficina Anticorrupción
 
@@ -39,7 +39,7 @@ Recursos disponibles
 
 -   **documento_FODYW_fecha_hora_creacion (date):** fecha y hora en la que se generó el documento FODYW
 
--   **documento_FODYW_nro_documento (int):** número del documento FOJWP
+-   **documento_FODYW_nro_documento (int):** número del documento FODYW
 
 -   **expediente_numero (int):** número de expediente
 
@@ -54,52 +54,175 @@ Recursos disponibles
 
 -   **cuit_cuil (int):** número de cuit/cuil del funcionario/a declarante
 
--   **cargo_actual (string):** cargo que ocupa el funcionario/a en la actualidad
+-   **cargo_actual (string):** jerarquía/rango del cargo que ocupa el funcionario/a en la actualidad
 
 -   **cargo_descripcion (string):**
 
--   **cargo_jurisdiccion (string):** Jurisdicción en la que se desempeña el cargo
+-   **cargo_jurisdiccion (string):** Jurisdicción, organismo, ente o empresa en la que se desempeña el cargo
 
--   **cargo_fecha_inicio (date):** fecha de inicio a la actividad
+-   **cargo_fecha_inicio (date):** fecha de inicio del cargo que motiva la declaración
 
--   **persona_ocupada (string):** Toma los valores:
+
+-   **persona_ocupada (string):** informa la situación laboral/profesional de los últimos tres (3) años de la persona declarante. Toma los valores:
 
     -   Sí
     -   No
     
--   **profesionn_ocupacion (string):** describe la profesión/ocupación del funcionario/a
+-   **profesionn_ocupacion (string):** describe la profesión/ocupación del funcionario/a según los siguientes valores:
 
--   **profesion_ocupacion_caracter (string):**
+    -   Arquitecto/a, ingeniero/a civil, maestro/a mayor de obras, trabajador/a (profesional, técnico/a u operario/a) de construcción edilicia, obras de infraestructura y redes de distribución de energía, gas, petróleo, agua y telefonía.
+    -   Artista, deportista. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de servicios de recreación y espectáculos, de viajes y turismo, gastronómicos y hoteleros.
+    -   Comerciante minorista o mayorista (corredor/a, vendedor/a, viajante, promotor/a, etc.).
+    -   Directivo/a de empresas privadas (grandes, medianas, pequeñas o microempresas privadas).
+    -   Directivo/a o empleado/a de instituciones sociales (comunales, políticas, gremiales, religiosas, derechos humanos, medio ambiente y otras instituciones de bien público).
+    -   Docente, educador/a o investigador/a científico, académico, tecnológico.
+    -   Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de entidades bancarias, aseguradoras o financieras.
+    -   Fabricante, empresario/a industrial. Productor/a o trabajador/a (profesional, técnico/a u operario/a) industrial o artesanal.
+    -   Funcionario/a del Estado (nacional, provincial o municipal). Directivo/a o empleado/a de empresas estatales.
+    -   Ingeniero/a industrial, ambiental, sistemas, minas, petroleo. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de minería, petróleo, gas, agua, electricidad o energías renovables.
+    -   Oficial o suboficial de las fuerzas armadas o de seguridad. Directivo/a o empleado/a de empresas de vigilancia y seguridad.
+    -   Periodista, comunicador/a, editor/a, productor/a, conductor/a. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de radio, televisión, diarios, revistas, redes sociales, etc.
+    -   Productor/a de software, programador/a. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de servicios de programación, asistencia o gestión de redes y aplicativos informáticos
+    -   Productor/a o trabajador/a (profesional, técnico/a u operario/a) agrícola, ganadero, avícola, apícola, lechero, forestal, pesquero.
+    -   Profesional de la salud y sanidad (médico/a, bioquímico/a, farmacéutico/a, kinesiólogo/a, radiólogo/a, bioingeniero/a, enfermero/a, etc.).
+    -   Profesional de las ciencias humanas y sociales (sociólogo/a, politólogo/a, psicólogo/a, antropólogo/a, etc.).
+    -   Profesional jurídico-contable (abogado/a, contador/a, actuario/a, procurador/a, traductor/a, etc.).
+    -   Profesional, técnico/a u operario/a de servicios de instalación, mantenimiento o reparación de bienes, máquinas o equipos.
+    -   Profesional, técnico/a u operario/a de servicios de transporte, almacenaje, comunicaciones y telecomunicaciones.
+    -   Profesional, técnico/a u operario/a del cuidado y la atención de personas, de servicios domésticos y de limpieza.
 
--   **categoria_ocupacional_relacion_dependencia (string):** describe la categoría ocupacional del funcionario/a en relación de dependencia
+-   **profesion_ocupacion_caracter (string):** Toma uno de los siguientes valores según la actividad anterior que se declara:
 
--   **relacion_dependecia_empleador (string):** describe la entidad empleadora
+    -   Relación de dependencia
+    -   Trabajo independiente
+    -   Función pública
 
--   **relacion_dependencia_empleador_cuit (int):** cuit de la entidad empleadora
+-   **categoria_ocupacional_relacion_dependencia (string):** cuando previamente se seleccionó la opción “relación de dependencia”, describe la categoría ocupacional de la actividad anterior del funcionario/a según los siguientes valores:
 
--   **relacion_dependencia_sector (string):** sector en el que se desempeña en relación de dependencia
+    -   CEO, gerente general o similar
+    -   Director, ejecutivo, administrador o similar
+    -   Gerente o jefe de área o sección (fuera de convenio)
+    -   Empleado jerárquico o jefe (dentro de convenio)
+    -   Empleado profesional o técnico (fuera de convenio)
+    -   Empleado profesional o técnico (dentro de convenio)
+    -   Empleado administrativo
+    -   Oficial / Empleado calificado
+    -   Capataz / Supervisor
+    -   Operario / Peón / Suboficial
 
--   **relacion_dependencia_fecha_inicio (date):** fecha de inicio en el cargo en relación de dependencia
+-   **relacion_dependecia_empleador (string):** consigna nombre y apellido del empleador/a o razón social de la entidad empleadora
 
--   **relacion_dependencia_fecha_cese (date):** fecha de cese en el cargo en relación de dependencia
+-   **relacion_dependencia_empleador_cuit (int):** cuit del empleador/a o entidad empleadora
 
--   **ultimo_puesto_ocupado (string):** último puesto ocupado en relación de dependencia
+-   **relacion_dependencia_sector (string):** detalla el sector de la economía en el que el/la declarante se desempeñóa en relación de dependencia según los siguientes valores:
 
--   **categoria_ocupacional_trabajo_independiente (string):** describe la categoría ocupacional en el trabajo independiente
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
 
--   **trabajo_independiente_razon_social (string):** razón social o nombre comercial…….
+-   **relacion_dependencia_fecha_inicio (date):** fecha de inicio de la actividad anterior en relación de dependencia
 
--   **trabajo_independiente_sector (string):** sector en el que se desempeña en forma independiente
+-   **relacion_dependencia_fecha_cese (date):** fecha de cese de la actividad anterior en relación de dependencia
 
--   **trabajo_independiente_fecha_inicio (date):** fecha de inicio en el trabajo independiente
+-   **ultimo_puesto_ocupado (string):** detalla el último puesto ocupado en relación de dependencia
 
--   **trabajo_independiente_fecha_cese (date):** fecha de cese en el trabajo independiente
+-   **categoria_ocupacional_trabajo_independiente (string):** cuando previamente se seleccionó la opción “trabajo independiente”, describe la categoría ocupacional de la actividad anterior del funcionario/a según los siguientes valores:
 
--   **funcion_publica_categoria_ocupacional (string):** describe la categoría ocupacional en la función pública
+    -   Rentista o usufructuario de bienes o valores
+    -   Banquero, inversor o administrador de inversiones
+    -   Empresario gran empresa (más 500 empleados)
+    -   Empresario mediano (entre 91 y 500 empleados)
+    -   Empesario pequeño (entre 16 y 90 empleados)
+    -   Microempresario (hasta 15 empleados)
+    -   Profesional o técnico independiente
+    -   Comerciante
+    -   Trabajador de la economía social (cooperativista)
+    -   Oficio por cuenta propia
 
--   **funcion_publica_organismo (string):** organismo/entidad donde cumplió funciones públicas
+-   **trabajo_independiente_razon_social (string):** consigna razón social o nombre comercial utilizado por el/la declarante en su actividad anterior
 
--   **funcion_publica_sector (string):** sector en el que se cumplió funciones públicas
+-   **trabajo_independiente_sector (string):** detalla el sector de la economía en el que se desempeñóa en forma independiente según los siguientes valores:
+
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
+
+-   **trabajo_independiente_fecha_inicio (date):** echa de inicio de la actividad anterior en el trabajo independiente
+
+-   **trabajo_independiente_fecha_cese (date):** fecha de cese de la actividad anterior en el trabajo independiente
+
+-   **funcion_publica_categoria_ocupacional (string):** cuando previamente se seleccionó la opción “función pública”, describe la categoría ocupacional de la actividad anterior del funcionario/a según los siguientes valores:
+
+    -   Funcionario/a del Poder Ejecutivo Nacional
+    -   Funcionario/a del Congreso de la Nación
+    -   Funcionario/a del Poder Judicial de la Nación
+    -   Funcionario/a del Ministerio Público Fiscal/Defensa de la Nación
+    -   Funcionario/a Provincial (Poder Ejecutivo)
+    -   Funcionario/a Provincial (Poder Legislativo)
+    -   Funcionario/a Provincial (Poder Judicial/Ministerio Público)
+    -   Funcionario/a Municipal (Intendencia)
+    -   Funcionario/a Municipal (Concejo Deliberante)
+
+-   **funcion_publica_organismo (string):** consigna el nombre del organismo/entidad donde cumplió funciones públicas
+-   
+-   **funcion_publica_sector (string):** detalla el sector de la economía en el que se cumplió funciones públicas según los siguientes valores:
+
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
+
+
 
 -   **funcion_publica_fecha_inicio (date):** fecha de inicio en la función pública
 
