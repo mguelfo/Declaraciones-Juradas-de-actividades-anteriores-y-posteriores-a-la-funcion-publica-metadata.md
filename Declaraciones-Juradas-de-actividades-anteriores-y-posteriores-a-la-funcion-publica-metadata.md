@@ -280,6 +280,8 @@ Notas:
 
 [Ley de Ética Pública 25.188](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/60847/norma.htm)
 
+[Resolución Nro. 7/2022](http://servicios.infoleg.gob.ar/infolegInternet/anexos/360000-364999/363876/norma.htm)
+
 [Ley 26.857](http://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/215002/norma.htm)
 
 [Decreto Nro. 895/2013](http://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/217131/norma.htm)
