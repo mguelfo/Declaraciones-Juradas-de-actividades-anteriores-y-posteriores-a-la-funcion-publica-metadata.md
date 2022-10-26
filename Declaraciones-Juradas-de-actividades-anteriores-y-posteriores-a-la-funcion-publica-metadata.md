@@ -62,7 +62,6 @@ Recursos disponibles
 
 -   **cargo_fecha_inicio (date):** fecha de inicio del cargo que motiva la declaración
 
-
 -   **persona_ocupada (string):** informa la situación laboral/profesional de los últimos tres (3) años de la persona declarante. Toma los valores:
 
     -   Sí
@@ -198,7 +197,7 @@ Recursos disponibles
     -   Funcionario/a Municipal (Concejo Deliberante)
 
 -   **funcion_publica_organismo (string):** consigna el nombre del organismo/entidad donde cumplió funciones públicas
--   
+ 
 -   **funcion_publica_sector (string):** detalla el sector de la economía en el que se cumplió funciones públicas según los siguientes valores:
 
     -   Agropecuario, forestal y pesquero
@@ -222,33 +221,37 @@ Recursos disponibles
     -   Arte, entretenimiento, deporte y recreación
     -   Otro sector no clasificado en las opciones anteriores
 
+-   **funcion_publica_fecha_inicio (date):** fecha de inicio de la actividad anterior en la función pública
 
+-   **funcion_publica_fecha_cese (date):** fecha de cese de la actividad anterior en la función pública
 
--   **funcion_publica_fecha_inicio (date):** fecha de inicio en la función pública
-
--   **funcion_publica_fecha_cese (date):** fecha de cese en la función pública
-
--   **jubilado_pensionado (string):** Toma los valores:
+-   **jubilado_pensionado (string):** informa si la persona declarante gozaba de una jubilación o pensión dentro de los últimos tres (3) años al inicio del cargo por el cual declara. Toma los valores:
 
     -   Sí
     -   No
  
--   **jubilado_pensionado_caja (string):**
+-   **jubilado_pensionado_caja (string):** cuando previamente se seleccionó la opción “Sí” informa el nombre del régimen o caja de jubilaciones y pensiones según los siguientes valores:
 
--   **jubilado_pensionado_fecha_alta (date):** fecha de alta jubilación/pensión
+    -   ANSES
+    -   Caja fuerzas Armadas/Seguridad
+    -   Caja Profesional
+    -   Caja Provincial/Municipal
+    -   Seguro de retiro privado
 
--   **jubilado_pensionado_tipo_regimen (string):** tipo de régimen de jubilación/pención
+-   **jubilado_pensionado_fecha_alta (date):** detalla la fecha de alta de la jubilación/pensión
+
+-   **jubilado_pensionado_tipo_regimen (string):** tipo de régimen de jubilación/pensción
 
 -   **jubilado_pensionado_fecha_opcion (date):**
 
--   **desocupado (string):** Toma los valores:
+-   **desocupado (string):** informa si la persona declarante estuvo desocupada dentro de los últimos tres (3) años al inicio del cargo por el cual declara. Toma los valores:
 
     -   Sí
     -   No
 
--   **desocupado_fecha_desde (string):** fecha desde la que se encuentra desocupado/a el funcionario/a
+-   **desocupado_fecha_desde (string):** detalla la fecha desde la que estuvo desocupado/a el funcionario/a
 
--   **desocupado_fecha_hasta (string):** fecha hasta la que se encuentra desocupado/a el funcionario/a
+-   **desocupado_fecha_hasta (string):** detalla la fecha hasta la que estuvo desocupado/a el funcionario/a
 
 -   **desocupado_actividad (string):**
 
@@ -404,3 +407,4 @@ Notas:
 
 [Resolución Nro. 7/2022](http://servicios.infoleg.gob.ar/infolegInternet/anexos/360000-364999/363876/norma.htm)
 
+Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [NO-2022-113485282-APN-CPI#OA](http://datos.jus.gob.ar/resoluciones/NO-2022-113485282-APN-CPI#OA), del 24 de octubre de 2022.
