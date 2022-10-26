@@ -69,7 +69,7 @@ Recursos disponibles
     
 -   **profesionn_ocupacion (string):** describe la profesión/ocupación del funcionario/a
 
--   **profesion_ocupacion_caracter (string): **
+-   **profesion_ocupacion_caracter (string):**
 
 -   **categoria_ocupacional_relacion_dependencia (string):** describe la categoría ocupacional del funcionario/a en relación de dependencia
 
