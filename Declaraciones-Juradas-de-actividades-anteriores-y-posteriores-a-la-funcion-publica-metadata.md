@@ -47,9 +47,9 @@ Recursos disponibles
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
 
--   Inscripción de actividades laborales anteriores a la función pública
+-   **Inscripción de actividades laborales anteriores a la función pública (string):**
 
--   Actualización de actividades laborales anteriores a la función pública
+-   **Actualización de actividades laborales anteriores a la función pública (string):**
 
 -   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante
 
@@ -171,7 +171,7 @@ Recursos disponibles
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
 
--   Inscripción de actividades laborales al egreso de la función pública
+-   **Inscripción de actividades laborales al egreso de la función pública (string):**
 
 -   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante
 
