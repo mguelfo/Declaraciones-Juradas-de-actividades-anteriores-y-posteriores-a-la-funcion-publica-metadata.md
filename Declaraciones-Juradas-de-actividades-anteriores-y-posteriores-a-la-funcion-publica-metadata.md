@@ -47,10 +47,9 @@ Recursos disponibles
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
 
-  -   Inscripción de actividades laborales anteriores a la función pública
-
-  -   Actualización de actividades laborales anteriores a la función pública
-
+    -   Inscripción de actividades laborales anteriores a la función pública
+    -   Actualización de actividades laborales anteriores a la función pública
+    
 -   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante
 
 -   **cuit_cuil (int):** número de cuit/cuil del funcionario/a declarante
@@ -65,10 +64,9 @@ Recursos disponibles
 
 -   **persona_ocupada (string):** Toma los valores:
 
--   Sí
-
--   No
-
+    -   Sí
+    -   No
+    
 -   **profesionn_ocupacion (string):** describe la profesión/ocupación del funcionario/a
 
 -   **profesion_ocupacion_caracter (string): **
@@ -109,10 +107,9 @@ Recursos disponibles
 
 -   **jubilado_pensionado (string):** Toma los valores:
 
--   Sí
-
--   No
-
+    -   Sí
+    -   No
+ 
 -   **jubilado_pensionado_caja (string):**
 
 -   **jubilado_pensionado_fecha_alta (date):** fecha de alta jubilación/pensión
@@ -123,9 +120,8 @@ Recursos disponibles
 
 -   **desocupado (string):** Toma los valores:
 
--   Sí
-
--   No
+    -   Sí
+    -   No
 
 -   **desocupado_fecha_desde (string):** fecha desde la que se encuentra desocupado/a el funcionario/a
 
@@ -171,7 +167,7 @@ Recursos disponibles
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
 
--   **Inscripción de actividades laborales al egreso de la función pública (string):**
+    -   Inscripción de actividades laborales al egreso de la función pública
 
 -   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante
 
@@ -187,9 +183,8 @@ Recursos disponibles
 
 -   **persona_ocupada (string):** Toma los valores:
 
--   Sí
-
--   No
+    -   Sí
+    -   No
 
 -   **profesion_ocupacion (string):** describe la profesión/ocupación del funcionario/a
 
@@ -231,9 +226,8 @@ Recursos disponibles
 
 -   **jubilado_pensionado (string):** Toma los valores:
 
--   Sí
-
--   No
+    -   Sí
+    -   No
 
 -   **jubilado_pensionado_caja (string):**
 
@@ -243,9 +237,8 @@ Recursos disponibles
 
 -   **desocupado (string):** Toma los valores:
 
--   Sí
-
--   No
+    -   Sí
+    -   No
 
 -   **desocupado_actividad (string):**
 
