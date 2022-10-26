@@ -3,7 +3,7 @@ Declaraciones Juradas de actividades anteriores y posteriores a la función púb
 
 Datos correspondientes correspondiente al Sistema de Monitoreo de Actividades Privadas y Públicas Anteriores y Posteriores al ejercicio de la función pública.(MAPPAP).
 
-http://http://datos.jus.gob.ar/dataset/declaraciones-juradas-de-actividades-anteriores-y-posteriores-a-la-funcion-publica
+http://datos.jus.gob.ar/dataset/declaraciones-juradas-de-actividades-anteriores-y-posteriores-a-la-funcion-publica
 
 Características
 ---------------
