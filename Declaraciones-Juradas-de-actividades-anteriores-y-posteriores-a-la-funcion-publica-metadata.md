@@ -56,7 +56,7 @@ Recursos disponibles
 
 -   **cargo_actual (string):** cargo que ocupa el funcionario/a en la actualidad
 
--   **cargo_descripcion (string): **
+-   **cargo_descripcion (string):**
 
 -   **cargo_jurisdiccion (string):** Jurisdicción en la que se desempeña el cargo
 
