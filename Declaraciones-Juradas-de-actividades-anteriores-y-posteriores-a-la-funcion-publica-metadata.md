@@ -37,13 +37,13 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **documento_FODYW_fecha_creacion (date):** fecha en la que se generó el documento FODYW
+-   **documento_FODYW_fecha_hora_creacion (date):** fecha y hora en la que se generó el documento FODYW
 
 -   **documento_FODYW_nro_documento (int):** número del documento FOJWP
 
 -   **expediente_numero (int):** número de expediente
 
--   **caratulacion_fecha (date):** fecha en la que se caratuló el expediente
+-   **caratulacion_fecha_hora (date):** fecha y hora en la que se caratuló el expediente
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
 
@@ -87,7 +87,7 @@ Recursos disponibles
 
 -   **categoria_ocupacional_trabajo_independiente (string):** describe la categoría ocupacional en el trabajo independiente
 
--   **trabajo_independiente_azón_social (string):** razón social o nombre comercial…….
+-   **trabajo_independiente_razon_social (string):** razón social o nombre comercial…….
 
 -   **trabajo_independiente_sector (string):** sector en el que se desempeña en forma independiente
 
@@ -157,13 +157,13 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **documento_FOJWP_fecha_creacion (date):** fecha en la que se generó el documento FOJWP
+-   **documento_FOJWP_fecha_hora_creacion (date):** fecha y hora en la que se generó el documento FOJWP
 
 -   **documento_FOJWP_nro_documento (int):** número del documento FOJWP
 
 -   **expediente_numero (int):** número de expediente
 
--   **caratulacion_fecha (date):** fecha en la que se caratuló el expediente
+-   **caratulacion_fecha_hora (date):** fecha y hora en la que se caratuló el expediente
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
 
@@ -200,19 +200,19 @@ Recursos disponibles
 
 -   **relacion_dependencia_fecha_inicio (date):** fecha de inicio en relación de dependencia
 
--   **relacion_dependencia_fecha_cese (date):** fecha de cese en relación de dependencia
+-   **puesto_actual (string):** 
 
--   **ultimo_puesto_ocupado (string):** describe el último puesto ocupado
+-   **puesto_actual_descripción (string):** 
 
 -   **categoria_ocupacional_trabajo_independiente (string):** describe la categoría ocupacional en trabajo independiente
 
--   **trabajo_independiente_azón_social (string):** razón social o nombre comercial de la entidad en la que se desempeña????
+-   **trabajo_independiente_azon_social (string):** razón social o nombre comercial de la entidad en la que se desempeña????
 
 -   **trabajo_independiente_sector (string):** sector en el que se desempeña en forma independiente
 
+-   **trabajo_independiente_sector_otro (string):** 
+-   
 -   **trabajo_independiente_fecha_inicio (date):** fecha de inicio en el trabajo independiente
-
--   **trabajo_independiente_fecha_cese (date):** fecha de cese en el trabajo independiente
 
 -   **funcion_publica_categoria_ocupacional (string):** describe la categoría ocupacional en la función pública
 
