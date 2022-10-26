@@ -273,22 +273,11 @@ Notas:
 
 [Ley de Ética Pública 25.188](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/60847/norma.htm)
 
+[Decreto Nro. 41/1999](http://servicios.infoleg.gob.ar/infolegInternet/anexos/55000-59999/55841/norma.htm)
+
+[Decreto Nro. 164/1999](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/61900/norma.htm)
+
+[Resolución Nro. 1000/2000](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64623/norma.htm)
+
 [Resolución Nro. 7/2022](http://servicios.infoleg.gob.ar/infolegInternet/anexos/360000-364999/363876/norma.htm)
 
-[Ley 26.857](http://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/215002/norma.htm)
-
-[Decreto Nro. 895/2013](http://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/217131/norma.htm)
-
-[Resolución General AFIP Nro. 3511/2013](http://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/217218/norma.htm)
-
-[Resolución M.J. y D.H. Nro. 1695/2013](http://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/219937/norma.htm)
-
-[Resolución M.J. y D.H. Nro. 23-E/2017](http://servicios.infoleg.gob.ar/infolegInternet/anexos/275000-279999/277822/norma.htm)
-
-[Decreto Nro. 164/99](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/61900/texact.htm)
-
-[Resolución Nro. 6/2000](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/63908/norma.htm)
-
-[Resolución Nro. 1/2001](http://servicios.infoleg.gob.ar/infolegInternet/anexos/70000-74999/71743/norma.htm)
-
-Este Conjunto de datos es publicado en el Portal de Datos Abiertos de la Justicia Argentina mediante [Resolución Nº 986 del Ministerio de Justicia y Derechos Humanos](http://datos.jus.gob.ar/resoluciones/RESOL-2016)
