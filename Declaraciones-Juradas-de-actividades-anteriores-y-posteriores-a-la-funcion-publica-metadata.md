@@ -8,7 +8,7 @@ http://datos.jus.gob.ar/dataset/declaraciones-juradas-de-actividades-anteriores-
 Características
 ---------------
 
--   **Fecha de Primera Publicación:**
+-   **Fecha de Primera Publicación:** 26/10/2022
 
 -   **Tags o Etiquetas:** anticorrupción, DDJJ, funcionarios, ética pública, transparencia, función pública, actividades profesionales, actividades laborales, antecedentes, puerta giratoria, conflicto de intereses
 
@@ -249,27 +249,56 @@ Recursos disponibles
     -   Sí
     -   No
 
--   **desocupado_fecha_desde (string):** detalla la fecha desde la que estuvo desocupado/a el funcionario/a
+-   **desocupado_fecha_desde (date):** detalla la fecha desde la que estuvo desocupado/a el funcionario/a
 
--   **desocupado_fecha_hasta (string):** detalla la fecha hasta la que estuvo desocupado/a el funcionario/a
+-   **desocupado_fecha_hasta (date):** detalla la fecha hasta la que estuvo desocupado/a el funcionario/a
 
--   **desocupado_actividad (string):**
+-   **actividad_ad_honorem (string):** informa si la persona declarante ha realizado actividades ad honorem en los últimos tres (3) años. Toma los valores:
 
--   **desocupado_actividad_descripcion (string):**
+    -   Sí
+    -   No
 
--   **desocupado_actividad_entidad (string):**
+-   **actividad_ad_honorem_descripcion (string):** cuando previamente se seleccionó la opción “Sí”, describe la actividad ad honorem realizada
 
--   **desocupado_actividad_entidad_cuit (int):**
+-   **actividad_ad_honorem_entidad (string):** cuando la actividad ad honorem se realizó en una entidad u organización con o sin personería jurídica, se consigna el nombre de la entidad u organización:
 
--   **desocupado_actividad_sector (string):**
+-   **actividad_ad_honorem_entidad_cuit (string):** cuando la entidad u organización donde se realiza o realizó la actividad ad honorem cuenta con personería e inscripción ante la AFIP se consigna su número de cuit
 
--   **desocupado_actividad_sector_otro (string):**
+-   **actividad_ad_honorem_sector (string):** se consigna el sector de la economía en el que el/la declarante desarrolló/desarrolla la actividad ad honorem según los siguientes valores:
 
--   **desocupado_actividad_propositos (string):**
 
--   **desocupado_actividad_fecha_inicio (date):**
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
 
--   **desocupado_actividad_fecha_cese (date):**
+
+-   **actividad_ad_honorem_sector_otro (string):** indica otro sector no clasificado en las opciones anteriores
+
+-   **actividad_ad_honorem_propositos (string):** se detallan los fines y objetivos principales de la entidad u organización donde se realiza o realizó la actividad ad honorem
+
+-   **actividad_ad_honorem_fecha_inicio (date):** detalla la fecha desde la que se realiza o realizó la actividad ad honorem	
+
+-   **actividad_ad_honorem_fecha_cese (date):** en caso de haber cesado la actividad ad honorem, detalla la fecha desde la que cesó tal actividad
+
+
+
+
 
 ### Declaraciones Juradas - actividades posteriores a la función pública - AAAAMMDD
 
