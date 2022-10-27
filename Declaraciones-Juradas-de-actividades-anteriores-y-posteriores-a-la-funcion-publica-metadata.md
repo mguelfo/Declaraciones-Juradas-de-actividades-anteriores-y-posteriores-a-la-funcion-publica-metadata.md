@@ -266,7 +266,6 @@ Recursos disponibles
 
 -   **actividad_ad_honorem_sector (string):** se consigna el sector de la economía en el que el/la declarante desarrolló/desarrolla la actividad ad honorem según los siguientes valores:
 
-
     -   Agropecuario, forestal y pesquero
     -   Maderero y papelero
     -   Alimentación, bebidas y cigarrillos
@@ -286,7 +285,6 @@ Recursos disponibles
     -   Administración pública, defensa y seguridad social obligatoria
     -   Educación, investigación, ciencia y tecnología
     -   Arte, entretenimiento, deporte y recreación
-
 
 -   **actividad_ad_honorem_sector_otro (string):** indica otro sector no clasificado en las opciones anteriores
 
@@ -408,9 +406,7 @@ Recursos disponibles
 
 -   **relacion_dependencia_fecha_inicio (date):** fecha de inicio de la actividad en relación de dependencia
 
--   **relacion_dependencia_fecha_cese (date):** fecha de cese de la actividad en relación de dependencia ???????? No tenemos este campo publicado
-
--   **puesto_actual (string):** nosotros o  **ultimo_puesto_ocupado (string):** ellos detalla el último puesto ocupado en relación de dependencia
+-   **puesto_actual (string):** 
 
 -   **puesto_actual_descripción (string):** 
 
@@ -452,11 +448,9 @@ Recursos disponibles
     -   Arte, entretenimiento, deporte y recreación
     -   Otro sector no clasificado en las opciones anteriores
 
--   **trabajo_independiente_sector_otro (string):** ???????????????
+-   **trabajo_independiente_sector_otro (string):** describe otro sector no especificado en la opciones anteriores
 -   
 -   **trabajo_independiente_fecha_inicio (date):** fecha de inicio de  la actividad en el trabajo independiente
-
--   **trabajo_independiente_fecha_cese (date):** fecha de cese de la actividad en el trabajo independiente. Se publica??????????
 
 -   **funcion_publica_categoria_ocupacional (string):** cuando previamente se seleccionó la opción “función pública” describe la categoría ocupacional de la actividad del/la declarante según los siguientes valores:
 
@@ -495,7 +489,7 @@ Recursos disponibles
     -   Arte, entretenimiento, deporte y recreación
     -   Otro sector no clasificado en las opciones anteriores
 
--   **funcion_publica otro_sector (string):** describe otro sector no especificado en la opciones anteriores (es nombre de campo ??????)
+-   **funcion_publica_sector_otro (string):** describe otro sector no especificado en la opciones anteriores
 
 -   **funcion_publica_fecha_inicio (date):** fecha de inicio de la actividad en la función pública
 
@@ -555,13 +549,11 @@ Recursos disponibles
     -   Arte, entretenimiento, deporte y recreación
     -   Otro sector no clasificado en las opciones anteriores
 
--   **actividad_ad_honorem_sector_otro (string):** indica otro sector no clasificado en las opciones anteriores ?????? confirmar si es nombre de campo
+-   **actividad_ad_honorem_sector_otro (string):** indica otro sector no clasificado en las opciones anteriores
 
 -   **actividad_ad_honorem_propositos (string):** se detallan los fines y objetivos principales de la entidad u organización donde se realiza la actividad ad honorem
 
 -   **actividad_ad_honorem_fecha_inicio (date):** detalla la fecha desde la que se realiza la actividad ad honorem		
-
--   **actividad_ad_honorem_fecha_cese (date):** en caso de haber cesado la actividad ad honorem, detalla la fecha desde la que cesó tal actividad
 
 ### Declaraciones Juradas - actividades anteriores y posteriores a la función pública - AAAA
 
