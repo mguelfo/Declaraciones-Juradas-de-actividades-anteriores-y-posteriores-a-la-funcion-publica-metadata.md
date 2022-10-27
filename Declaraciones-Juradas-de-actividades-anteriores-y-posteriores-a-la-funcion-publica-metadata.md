@@ -292,13 +292,9 @@ Recursos disponibles
 
 -   **actividad_ad_honorem_propositos (string):** se detallan los fines y objetivos principales de la entidad u organización donde se realiza o realizó la actividad ad honorem
 
--   **actividad_ad_honorem_fecha_inicio (date):** detalla la fecha desde la que se realiza o realizó la actividad ad honorem	
+-   **actividad_ad_honorem_fecha_inicio (date):** detalla la fecha desde la que se realiza o realizó la actividad ad honorem
 
 -   **actividad_ad_honorem_fecha_cese (date):** en caso de haber cesado la actividad ad honorem, detalla la fecha desde la que cesó tal actividad
-
-
-
-
 
 ### Declaraciones Juradas - actividades posteriores a la función pública - AAAAMMDD
 
@@ -320,7 +316,7 @@ Recursos disponibles
 
 -   **caratulacion_fecha_hora (date):** fecha y hora en la que se caratuló el expediente
 
--   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
+-   **tramite_tipo (string):** indica el tipo de trámite. Toma el valor:
 
     -   Inscripción de actividades laborales al egreso de la función pública
 
@@ -328,90 +324,244 @@ Recursos disponibles
 
 -   **cuit_cuil (int):** número de cuit/cuil del funcionario/a declarante
 
--   **cargo_cese (string):** cargo de cese funcionario/a
+-   **cargo_cese (string):** jerarquía/rango del cargo de cese funcionario/a
 
--   **cargo_descripcion (string):** descripción del cargo
+-   **cargo_descripcion (string):** descripción del cargoo
 
--   **cargo_jurisdiccion (string):** Jurisdicción en la que se desempeña el cargo
+-   **cargo_jurisdiccion (string):** jurisdicción, organismo, ente o empresa en la que se desempeñaba el cargo
 
--   **cargo_fecha_cese (date):** fecha de cese en el cargo
+-   **cargo_fecha_cese (date):** fecha de cese del cargo que motiva la declaración
 
--   **persona_ocupada (string):** Toma los valores:
+-   **persona_ocupada (string):** informa la situación laboral/profesional del declarante. Toma los valores:
 
     -   Sí
     -   No
 
--   **profesion_ocupacion (string):** describe la profesión/ocupación del funcionario/a
+-   **profesion_ocupacion (string):** describe la profesión/ocupación del funcionario/a según los siguientes valores:
 
--   **profesion_ocupacion_caracter (string):**
+    -   Arquitecto/a, ingeniero/a civil, maestro/a mayor de obras, trabajador/a (profesional, técnico/a u operario/a) de construcción edilicia, obras de infraestructura y redes de distribución de energía, gas, petróleo, agua y telefonía
+    -   Artista, deportista. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de servicios de recreación y espectáculos, de viajes y turismo, gastronómicos y hoteleros
+    -   Comerciante minorista o mayorista (corredor/a, vendedor/a, viajante, promotor/a, etc.)
+    -   Directivo/a de empresas privadas (grandes, medianas, pequeñas o microempresas privadas)
+    -   Directivo/a o empleado/a de instituciones sociales (comunales, políticas, gremiales, religiosas, derechos humanos, medio ambiente y otras instituciones de bien público)
+    -   Docente, educador/a o investigador/a científico, académico, tecnológico
+    -   Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de entidades bancarias, aseguradoras o financieras
+    -   Fabricante, empresario/a industrial. Productor/a o trabajador/a (profesional, técnico/a u operario/a) industrial o artesanal
+    -   Funcionario/a del Estado (nacional, provincial o municipal). Directivo/a o empleado/a de empresas estatales
+    -   Ingeniero/a industrial, ambiental, sistemas, minas, petroleo. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de minería, petróleo, gas, agua, electricidad o energías renovables
+    -   Oficial o suboficial de las fuerzas armadas o de seguridad. Directivo/a o empleado/a de empresas de vigilancia y seguridad
+    -   Periodista, comunicador/a, editor/a, productor/a, conductor/a. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de radio, televisión, diarios, revistas, redes sociales, etc.
+    -   Productor/a de software, programador/a. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de servicios de programación, asistencia o gestión de redes y aplicativos informáticos
+    -   Productor/a o trabajador/a (profesional, técnico/a u operario/a) agrícola, ganadero, avícola, apícola, lechero, forestal, pesquero
+    -   Profesional de la salud y sanidad (médico/a, bioquímico/a, farmacéutico/a, kinesiólogo/a, radiólogo/a, bioingeniero/a, enfermero/a, etc.)
+    -   Profesional de las ciencias humanas y sociales (sociólogo/a, politólogo/a, psicólogo/a, antropólogo/a, etc.)
+    -   Profesional jurídico-contable (abogado/a, contador/a, actuario/a, procurador/a, traductor/a, etc.)
+    -   Profesional, técnico/a u operario/a de servicios de instalación, mantenimiento o reparación de bienes, máquinas o equipos
+    -   Profesional, técnico/a u operario/a de servicios de transporte, almacenaje, comunicaciones y telecomunicaciones
+    -   Profesional, técnico/a u operario/a del cuidado y la atención de personas, de servicios domésticos y de limpieza
 
--   **categoria_ocupacional_relacion_dependencia (string):** describe la categoría ocupacional del funcionario/a en relación de dependencia
+-   **profesion_ocupacion_caracter (string):** toma uno de los siguientes valores según la actividad que se declara:
 
--   **relacion_dependencia_empleador (string):** describe la entidad empleadora
+    -   Relación de dependencia
+    -   Trabajo independiente
+    -   Función pública
 
--   **relacion_dependencia_empleador_cuit (int):** cuit de la entidad empleadora
+-   **categoria_ocupacional_relacion_dependencia (string):** cuando previamente se seleccionó la opción “relación de dependencia” describe la categoría ocupacional de la actividad del funcionario/a según los siguientes valores:
 
--   **relacion_dependencia_sector (string):** sector en el que se desempeña en relación de dependencia
+    -   CEO, gerente general o similar
+    -   Director, ejecutivo, administrador o similar
+    -   Gerente o jefe de área o sección (fuera de convenio)
+    -   Empleado jerárquico o jefe (dentro de convenio)
+    -   Empleado profesional o técnico (fuera de convenio)
+    -   Empleado profesional o técnico (dentro de convenio)
+    -   Empleado administrativo
+    -   Oficial / Empleado calificado
+    -   Capataz / Supervisor
+    -   Operario / Peón / Suboficial
 
--   **relacion_dependencia_fecha_inicio (date):** fecha de inicio en relación de dependencia
+-   **relacion_dependencia_empleador (string):** consigna nombre y apellido del empleador/a o razón social de la entidad empleadora
 
--   **puesto_actual (string):** 
+-   **relacion_dependencia_empleador_cuit (int):** cuit del empleador/a o entidad empleadora
+
+-   **relacion_dependencia_sector (string):** detalla el sector de la economía en el que el/la declarante se desempeña en relación de dependencia según los siguientes valores:
+
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
+
+-   **relacion_dependencia_fecha_inicio (date):** fecha de inicio de la actividad en relación de dependencia
+
+-   **relacion_dependencia_fecha_cese (date):** fecha de cese de la actividad en relación de dependencia ???????? No tenemos este campo publicado
+
+-   **puesto_actual (string):** nosotros o  **ultimo_puesto_ocupado (string):** ellos detalla el último puesto ocupado en relación de dependencia
 
 -   **puesto_actual_descripción (string):** 
 
--   **categoria_ocupacional_trabajo_independiente (string):** describe la categoría ocupacional en trabajo independiente
+-   **categoria_ocupacional_trabajo_independiente (string):** cuando previamente se seleccionó la opción “trabajo independiente”, describe la categoría ocupacional de la actividad según los siguientes valores:
 
--   **trabajo_independiente_azon_social (string):** razón social o nombre comercial de la entidad en la que se desempeña????
+    -   Rentista o usufructuario de bienes o valores
+    -   Banquero, inversor o administrador de inversiones
+    -   Empresario gran empresa (más 500 empleados)
+    -   Empresario mediano (entre 91 y 500 empleados)
+    -   Empesario pequeño (entre 16 y 90 empleados)
+    -   Microempresario (hasta 15 empleados)
+    -   Profesional o técnico independiente
+    -   Comerciante
+    -   Trabajador de la economía social (cooperativista)
+    -   Oficio por cuenta propia
 
--   **trabajo_independiente_sector (string):** sector en el que se desempeña en forma independiente
+-   **trabajo_independiente_razon_social (string):** consigna razón social o nombre comercial utilizado por el/la declarante en su actividad
 
--   **trabajo_independiente_sector_otro (string):** 
+-   **trabajo_independiente_sector (string):** detalla el sector de la economía en el que se desempeña en forma independiente el/la declarante, según los siguientes valores:
+
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
+
+-   **trabajo_independiente_sector_otro (string):** ???????????????
 -   
--   **trabajo_independiente_fecha_inicio (date):** fecha de inicio en el trabajo independiente
+-   **trabajo_independiente_fecha_inicio (date):** fecha de inicio de  la actividad en el trabajo independiente
 
--   **funcion_publica_categoria_ocupacional (string):** describe la categoría ocupacional en la función pública
+-   **trabajo_independiente_fecha_cese (date):** fecha de cese de la actividad en el trabajo independiente. Se publica??????????
 
--   **funcion_publica_organismo (string):** organismo/entidad donde cumplió funciones públicas
+-   **funcion_publica_categoria_ocupacional (string):** cuando previamente se seleccionó la opción “función pública” describe la categoría ocupacional de la actividad del/la declarante según los siguientes valores:
 
--   **funcion_publica_sector (string):** sector en el que se cumplió funciones públicas
+    -   Funcionario/a del Poder Ejecutivo Nacional
+    -   Funcionario/a del Congreso de la Nación
+    -   Funcionario/a del Poder Judicial de la Nación
+    -   Funcionario/a del Ministerio Público Fiscal/Defensa de la Nación
+    -   Funcionario/a Provincial (Poder Ejecutivo)
+    -   Funcionario/a Provincial (Poder Legislativo)
+    -   Funcionario/a Provincial (Poder Judicial/Ministerio Público)
+    -   Funcionario/a Municipal (Intendencia)
+    -   Funcionario/a Municipal (Concejo Deliberante)
 
--   **funcion_publica otro_sector (string):** describe otro sector no especificado en la opciones anteriores
+-   **funcion_publica_organismo (string):** consigna el nombre del organismo/entidad donde cumple funciones públicas
 
--   **funcion_publica_fecha_inicio (date):** fecha de inicio en la función pública
+-   **funcion_publica_sector (string):** detalla el sector de la economía en el que se cumplen funciones públicas según los siguientes valores:
 
--   **jubilado_pensionado (string):** Toma los valores:
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
+
+-   **funcion_publica otro_sector (string):** describe otro sector no especificado en la opciones anteriores (es nombre de campo ??????)
+
+-   **funcion_publica_fecha_inicio (date):** fecha de inicio de la actividad en la función pública
+
+-   **jubilado_pensionado (string):** informa si la persona declarante goza de una jubilación o pensión. Toma los valores:
 
     -   Sí
     -   No
 
--   **jubilado_pensionado_caja (string):**
+-   **jubilado_pensionado_caja (string):** cuando previamente se seleccionó la opción “Sí” informa el nombre del régimen o caja de jubilaciones y pensiones según los siguientes valores:
 
--   **jubilado_pensionado_fecha_alta (date):** fecha de alta como jubilado/pensionado
+    -   ANSES
+    -   Caja fuerzas Armadas/Seguridad
+    -   Caja profesional
+    -   Caja Provincial/Municipal
+    -   Seguro de retiro privado
 
--   **jubilado_pensionado_fecha_inicio_haber_previsional (date):**
+-   **jubilado_pensionado_fecha_alta (date):** detalla la fecha de alta de la jubilación/pensión
 
--   **desocupado (string):** Toma los valores:
+-   **jubilado_pensionado_fecha_inicio_haber_previsional (date):** falta descripción!!
+
+-   **desocupado (string):** informa si la persona declarante está desocupada. Toma los siguientes valores:
 
     -   Sí
     -   No
 
--   **desocupado_actividad (string):**
+-   **actividad_ad_honorem (string):** informa si la persona declarante realiza actividades ad honorem. Toma los valores
 
--   **desocupado_actividad_descripcion (string):**
+    -   Sí
+    -   No
 
--   **desocupado_actividad_entidad (string):**
+-   **actividad_ad_honorem_descripcion (string):** cuando previamente se seleccionó la opción “Sí”, describe la actividad ad honorem realizada
 
--   **desocupado_actividad_entidad_cuit (int):**
+-   **actividad_ad_honorem_entidad (string):** cuando la actividad ad honorem se realiza en una entidad u organización con o sin personería jurídica, se consigna el nombre de la entidad u organización
 
--   **desocupado_actividad_sector (string):**
+-   **actividad_ad_honorem_entidad_cuit (string):** cuando la entidad u organización donde se realiza la actividad ad honorem cuenta con personería e inscripción ante la AFIP se consigna su número de cuit
 
--   **desocupado_actividad_sector_otro (string):**
+-   **actividad_ad_honorem_sector (string):** se consigna el sector de la economía en el que el/la declarante desarrolló/desarrolla la actividad ad honorem según los siguientes valores:
 
--   **desocupado_actividad_propositos (string):**
+    -   Agropecuario, forestal y pesquero
+    -   Maderero y papelero
+    -   Alimentación, bebidas y cigarrillos
+    -   Textil, calzado y marroquinería
+    -   Minero, petrolero y energético
+    -   Químico y petroquímico
+    -   Farmacéutico y bioquímico
+    -   Salud humana y animal
+    -   Siderúrgico, automotriz, metalmecánico y electromecánico
+    -   Electrónico, informático y óptico
+    -   Inmobiliario, construcción, agua potable y desagües
+    -   Transporte, almacenamiento, logística y correo
+    -   Turismo, hotelería y gastronomía
+    -   Banco, finanzas y seguros
+    -   Telecomunicaciones, información y prensa
+    -   Servicios profesionales, técnicos y de apoyo
+    -   Administración pública, defensa y seguridad social obligatoria
+    -   Educación, investigación, ciencia y tecnología
+    -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
 
--   **desocupado_actividad_fecha_inicio (date):**
+-   **actividad_ad_honorem_sector_otro (string):** indica otro sector no clasificado en las opciones anteriores ?????? confirmar si es nombre de campo
 
--   **desocupado_actividad_declaratoria (date):**
+-   **actividad_ad_honorem_propositos (string):** se detallan los fines y objetivos principales de la entidad u organización donde se realiza la actividad ad honorem
+
+-   **actividad_ad_honorem_fecha_inicio (date):** detalla la fecha desde la que se realiza la actividad ad honorem		
+
+-   **actividad_ad_honorem_fecha_cese (date):** en caso de haber cesado la actividad ad honorem, detalla la fecha desde la que cesó tal actividad
 
 ### Declaraciones Juradas - actividades anteriores y posteriores a la función pública - AAAA
 
