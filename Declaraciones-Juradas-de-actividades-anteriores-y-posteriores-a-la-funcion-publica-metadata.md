@@ -37,18 +37,18 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **documento_FODYW_fecha_hora_creacion (date):** fecha y hora en la que se generó el documento FODYW
+-   **documento_FODYW_fecha_hora_creacion (date):** fecha y hora en la que se completó el formulario FODYW y se generó el documento personal “DOCPE” correspondiente a la declaración jurada firmada
 
--   **documento_FODYW_nro_documento (int):** número del documento FODYW
+-   **documento_FODYW_nro_documento (int):** número del documento personal “DOCPE” correspondiente al formulario de declaración jurada FODYW firmado
 
--   **expediente_numero (int):** número de expediente
+-   **expediente_numero (int):** número de expediente GDE correspondiente al trámite de registro de la declaración jurada en el RLM “Registro de Actividades Laborales Anteriores y Posteriores al Ejercicio de la Función Pública”
 
--   **caratulacion_fecha_hora (date):** fecha y hora en la que se caratuló el expediente
+-   **caratulacion_fecha_hora (date):** fecha y hora en la que se caratuló el expediente GDE de registro de la declaración jurada en el RLM
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Puede tomar los valores:
 
-    -   Inscripción de actividades laborales anteriores a la función pública
-    -   Actualización de actividades laborales anteriores a la función pública
+    -   “Inscripción de actividades laborales anteriores a la función pública” cuando es la primera vez que la persona registra una declaración jurada en el RLM
+    -   “Actualización de actividades laborales anteriores a la función pública” cada vez que la persona declarante inscribe una declaración jurada en el RLM con ulterioridad al primer registro
     
 -   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante, puede aparecer primero el/los apellido/s y después el/los nombres o viceversa
 
@@ -56,7 +56,7 @@ Recursos disponibles
 
 -   **cargo_actual (string):** jerarquía/rango del cargo que ocupa el funcionario/a en la actualidad
 
--   **cargo_descripcion (string):**
+-   **cargo_descripcion (string):** cuando previamente se seleccionó la opción “Otro” se detalla el cargo ejercido al momento de declarar
 
 -   **cargo_jurisdiccion (string):** Jurisdicción, organismo, ente o empresa en la que se desempeña el cargo
 
@@ -230,7 +230,7 @@ Recursos disponibles
     -   Sí
     -   No
  
--   **jubilado_pensionado_caja (string):** cuando previamente se seleccionó la opción “Sí” informa el nombre del régimen o caja de jubilaciones y pensiones según los siguientes valores:
+-   **jubilado_pensionado_caja (string):** informa si la persona declarante gozaba de una jubilación o pensión dentro de los últimos tres (3) años anteriores al inicio del cargo por el cual declara. Toma los valores:
 
     -   ANSES
     -   Caja fuerzas Armadas/Seguridad
@@ -311,18 +311,18 @@ Recursos disponibles
 
 ### Campos del recurso
 
--   **documento_FOJWP_fecha_hora_creacion (date):** fecha y hora en la que se generó el documento FOJWP
+-   **documento_FOJWP_fecha_hora_creacion (date):** fecha y hora en la que se completó el formulario FOJWP y se generó el documento  personal “DOCPE” correspondiente a la declaración jurada firmada
 
--   **documento_FOJWP_nro_documento (int):** número del documento FOJWP
+-   **documento_FOJWP_nro_documento (int):** número del documento personal “DOCPE” correspondiente al formulario de declaración jurada FOJWP firmado
 
--   **expediente_numero (int):** número de expediente
+-   **expediente_numero (int):** número de expediente GDE correspondiente al trámite de registro de la declaración jurada en el RLM “Registro de Actividades Laborales Anteriores y Posteriores al Ejercicio de la Función Pública”
 
--   **caratulacion_fecha_hora (date):** fecha y hora en la que se caratuló el expediente
+-   **caratulacion_fecha_hora (date):** fecha y hora en la que se caratuló el expediente GDE  de registro de la declaración jurada en el RLM
 
 -   **tramite_tipo (string):** indica el tipo de trámite. Toma el valor:
 
-    -   Inscripción de actividades laborales al egreso de la función pública
-
+    -   “Inscripción de actividades laborales al egreso de la función pública” cada vez que la persona declarante inscribe una declaración jurada de actividades al egreso en el RLM
+ 
 -   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante, puede aparecer primero el/los apellido/s y después el/los nombres o viceversa
 
 -   **cuit_cuil (int):** número de cuit/cuil del funcionario/a declarante
@@ -411,9 +411,9 @@ Recursos disponibles
 
 -   **relacion_dependencia_fecha_inicio (date):** fecha de inicio de la actividad en relación de dependencia
 
--   **puesto_actual (string):** 
+-   **puesto_actual (string):** indica la denominación del puesto ocupado en relación de dependencia con posterioridad al cese en el cargo público
 
--   **puesto_actual_descripción (string):** 
+-   **puesto_actual_descripcion (string):** describe las tareas principales del puesto en relación de dependencia declarado como puesto actual
 
 -   **categoria_ocupacional_trabajo_independiente (string):** cuando previamente se seleccionó la opción “trabajo independiente”, describe la categoría ocupacional de la actividad según los siguientes valores:
 
