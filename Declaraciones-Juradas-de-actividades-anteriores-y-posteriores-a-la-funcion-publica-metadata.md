@@ -50,7 +50,7 @@ Recursos disponibles
     -   Inscripción de actividades laborales anteriores a la función pública
     -   Actualización de actividades laborales anteriores a la función pública
     
--   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante
+-   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante, puede aparecer primero el/los apellido/s y después el/los nombres o viceversa
 
 -   **cuit_cuil (int):** número de cuit/cuil del funcionario/a declarante
 
@@ -198,7 +198,7 @@ Recursos disponibles
 
 -   **funcion_publica_organismo (string):** consigna el nombre del organismo/entidad donde cumplió funciones públicas
  
--   **funcion_publica_sector (string):** detalla el sector de la economía en el que se cumplió funciones públicas según los siguientes valores:
+-   **funcion_publica_sector (string):** detalla el sector de la economía en el que la persona declarante cumplió funciones públicas según los siguientes valores:
 
     -   Agropecuario, forestal y pesquero
     -   Maderero y papelero
@@ -225,7 +225,7 @@ Recursos disponibles
 
 -   **funcion_publica_fecha_cese (date):** fecha de cese de la actividad anterior en la función pública
 
--   **jubilado_pensionado (string):** informa si la persona declarante gozaba de una jubilación o pensión dentro de los últimos tres (3) años al inicio del cargo por el cual declara. Toma los valores:
+-   **jubilado_pensionado (string):** informa si la persona declarante gozaba de una jubilación o pensión dentro de los últimos tres (3) años anteriores al inicio del cargo por el cual declara. Toma los valores:
 
     -   Sí
     -   No
@@ -240,9 +240,13 @@ Recursos disponibles
 
 -   **jubilado_pensionado_fecha_alta (date):** detalla la fecha de alta de la jubilación/pensión
 
--   **jubilado_pensionado_tipo_regimen (string):** tipo de régimen de jubilación/pensción
+-   **jubilado_pensionado_tipo_regimen (string):** informa si la persona declarante cobra el sueldo del cargo, el haber previsional o ambos. Toma los siguientes valores:
 
--   **jubilado_pensionado_fecha_opcion (date):**
+    -   Sueldo
+    -   Haber previsional
+    -   No incompatible
+
+-   **jubilado_pensionado_fecha_opcion (date):** cuando existe incompatibilidad entre el cobro del sueldo del cargo y la percepción del haber previsional, informa la fecha en que se realizó la opción de cobro
 
 -   **desocupado (string):** informa si la persona declarante estuvo desocupada dentro de los últimos tres (3) años al inicio del cargo por el cual declara. Toma los valores:
 
@@ -285,8 +289,9 @@ Recursos disponibles
     -   Administración pública, defensa y seguridad social obligatoria
     -   Educación, investigación, ciencia y tecnología
     -   Arte, entretenimiento, deporte y recreación
+    -   Otro sector no clasificado en las opciones anteriores
 
--   **actividad_ad_honorem_sector_otro (string):** indica otro sector no clasificado en las opciones anteriores
+-   **actividad_ad_honorem_sector_otro (string):** cuando previamente se seleccionó la opción “Otro sector no clasificado en las opciones anteriores” indica otro sector no clasificado en las opciones anteriores
 
 -   **actividad_ad_honorem_propositos (string):** se detallan los fines y objetivos principales de la entidad u organización donde se realiza o realizó la actividad ad honorem
 
@@ -318,7 +323,7 @@ Recursos disponibles
 
     -   Inscripción de actividades laborales al egreso de la función pública
 
--   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante
+-   **apellidos_nombres (string):** apellidos y nombres del funcionario/a declarante, puede aparecer primero el/los apellido/s y después el/los nombres o viceversa
 
 -   **cuit_cuil (int):** número de cuit/cuil del funcionario/a declarante
 
@@ -423,7 +428,7 @@ Recursos disponibles
     -   Trabajador de la economía social (cooperativista)
     -   Oficio por cuenta propia
 
--   **trabajo_independiente_razon_social (string):** consigna razón social o nombre comercial utilizado por el/la declarante en su actividad
+-   **trabajo_independiente_razon_social (string):** consigna razón social o nombre comercial utilizado por el/la declarante en su actividad de trabajo independiente
 
 -   **trabajo_independiente_sector (string):** detalla el sector de la economía en el que se desempeña en forma independiente el/la declarante, según los siguientes valores:
 
@@ -489,7 +494,7 @@ Recursos disponibles
     -   Arte, entretenimiento, deporte y recreación
     -   Otro sector no clasificado en las opciones anteriores
 
--   **funcion_publica_sector_otro (string):** describe otro sector no especificado en la opciones anteriores
+-   **funcion_publica_sector_otro (string):** cuando previamente se seleccionó la opción “Otro sector no clasificado en las opciones anteriores” describe otro sector no especificado en la opciones anteriores
 
 -   **funcion_publica_fecha_inicio (date):** fecha de inicio de la actividad en la función pública
 
@@ -508,9 +513,9 @@ Recursos disponibles
 
 -   **jubilado_pensionado_fecha_alta (date):** detalla la fecha de alta de la jubilación/pensión
 
--   **jubilado_pensionado_fecha_inicio_haber_previsional (date):** falta descripción!!
+-   **jubilado_pensionado_fecha_inicio_haber_previsional (date):** detalla la fecha de inicio o reinicio de cobro del haber previsional
 
--   **desocupado (string):** informa si la persona declarante está desocupada. Toma los siguientes valores:
+-   **desocupado (string):** informa si la persona declarante está desocupada al cese del cargo por el cual declara o queda desocupada dentro de un (1) año posterior al cese del cargo. Toma los siguientes valores:
 
     -   Sí
     -   No
@@ -549,7 +554,7 @@ Recursos disponibles
     -   Arte, entretenimiento, deporte y recreación
     -   Otro sector no clasificado en las opciones anteriores
 
--   **actividad_ad_honorem_sector_otro (string):** indica otro sector no clasificado en las opciones anteriores
+-   **actividad_ad_honorem_sector_otro (string):** cuando previamente se seleccionó la opción “Otro sector no clasificado en las opciones anteriores” indica otro sector no clasificado en las opciones anteriores
 
 -   **actividad_ad_honorem_propositos (string):** se detallan los fines y objetivos principales de la entidad u organización donde se realiza la actividad ad honorem
 
