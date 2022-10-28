@@ -454,7 +454,7 @@ Recursos disponibles
     -   Otro sector no clasificado en las opciones anteriores
 
 -   **trabajo_independiente_sector_otro (string):** describe otro sector no especificado en la opciones anteriores
--   
+
 -   **trabajo_independiente_fecha_inicio (date):** fecha de inicio de  la actividad en el trabajo independiente
 
 -   **funcion_publica_categoria_ocupacional (string):** cuando previamente se seleccionó la opción “función pública” describe la categoría ocupacional de la actividad del/la declarante según los siguientes valores:
@@ -564,7 +564,7 @@ Recursos disponibles
 
 -   **Nombre:** ddjj-anteriores-posteriores-funcion-publica-AAAA.zip
 
--   **Descripción del contenido:** archivo comprimido que contiene las Declaraciones juradas de actividades anteriores y posteriores a la función pública organizadas en archivos anuales.
+-   **Descripción del contenido:** archivo comprimido que contiene las declaraciones juradas de actividades anteriores y posteriores a la función pública organizadas en archivos anuales.
 
 -   **Formato:** ZIP
 
