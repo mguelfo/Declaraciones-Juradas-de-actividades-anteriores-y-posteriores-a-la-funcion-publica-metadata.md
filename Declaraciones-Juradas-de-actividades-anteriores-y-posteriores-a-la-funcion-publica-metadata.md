@@ -180,7 +180,7 @@ Recursos disponibles
     -   Arte, entretenimiento, deporte y recreación
     -   Otro sector no clasificado en las opciones anteriores
 
--   **trabajo_independiente_fecha_inicio (date):** echa de inicio de la actividad anterior en el trabajo independiente
+-   **trabajo_independiente_fecha_inicio (date):** fecha de inicio de la actividad anterior en el trabajo independiente
 
 -   **trabajo_independiente_fecha_cese (date):** fecha de cese de la actividad anterior en el trabajo independiente
 
