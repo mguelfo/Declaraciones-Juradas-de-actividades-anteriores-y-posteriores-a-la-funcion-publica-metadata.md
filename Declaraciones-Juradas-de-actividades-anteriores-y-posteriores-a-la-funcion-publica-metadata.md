@@ -67,7 +67,7 @@ Recursos disponibles
     -   Sí
     -   No
     
--   **profesionn_ocupacion (string):** describe la profesión/ocupación del funcionario/a según los siguientes valores:
+-   **profesion_ocupacion (string):** describe la profesión/ocupación del funcionario/a según los siguientes valores:
 
     -   Arquitecto/a, ingeniero/a civil, maestro/a mayor de obras, trabajador/a (profesional, técnico/a u operario/a) de construcción edilicia, obras de infraestructura y redes de distribución de energía, gas, petróleo, agua y telefonía.
     -   Artista, deportista. Empresario/a o trabajador/a (profesional, técnico/a u operario/a) de servicios de recreación y espectáculos, de viajes y turismo, gastronómicos y hoteleros.
