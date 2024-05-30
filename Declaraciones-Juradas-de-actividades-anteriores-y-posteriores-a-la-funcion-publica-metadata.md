@@ -14,7 +14,7 @@ Características
 
 -   **Organización:** Ministerio de Justicia y Derechos Humanos. Oficina Anticorrupción
 
--   **Autor:** Ministerio de Justicia y Derechos Humanos. Oficina Anticorrupción
+-   **Autor:** Ministerio de Justicia. Oficina Anticorrupción
 
 -   **Responsable:** Ministerio de Justicia y Derechos Humanos. Oficina Anticorrupción
 
