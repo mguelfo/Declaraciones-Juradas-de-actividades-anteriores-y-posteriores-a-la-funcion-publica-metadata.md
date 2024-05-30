@@ -12,11 +12,11 @@ Características
 
 -   **Tags o Etiquetas:** anticorrupción, DDJJ, funcionarios, ética pública, transparencia, función pública, actividades profesionales, actividades laborales, antecedentes, puerta giratoria, conflicto de intereses
 
--   **Organización:** Ministerio de Justicia y Derechos Humanos. Oficina Anticorrupción
+-   **Organización:** Ministerio de Justicia. Oficina Anticorrupción
 
--   **Autor:** Ministerio de Justicia y Derechos Humanos. Oficina Anticorrupción
+-   **Autor:** Ministerio de Justicia. Oficina Anticorrupción
 
--   **Responsable:** Ministerio de Justicia y Derechos Humanos. Oficina Anticorrupción
+-   **Responsable:** Ministerio de Justicia. Oficina Anticorrupción
 
 -   **Grupo:** Transparencia y anticorrupción
 
